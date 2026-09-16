@@ -83,13 +83,13 @@
 // ------------------------------------------------------------------------------------------------------------
 // |       |      |      |       |       |      |                |      |      |       |      |       |       |
 // |       |      |      |       |       |      |                |      |      |       |      | PSCR  |       |
-// |       |      |      |       |       |      |                |      |      |       |      |       |       |
+// |       |      |      |       |       |      |                |  =   |      |       |      |       |       |
 // |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |      |       |      |       |       |
 //                |      |       |       |      |      |  |      |      |      |       |      |
             bindings = <
 &trans     &trans       &trans       &trans       &trans       &trans                        &trans    &trans    &trans   &trans    &trans    &trans
 &trans     &trans       &trans       &trans       &trans       &trans                        &trans    &trans    &trans   &trans    &kp PSCRN &trans
-&trans     &trans       &trans       &trans       &trans       &trans                        &trans    &trans    &trans   &trans    &trans    &trans
+&trans     &trans       &trans       &trans       &trans       &trans                        &kp EQUAL &trans    &trans   &trans    &trans    &trans
 &trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans        &trans  &trans  &trans    &trans    &trans   &trans    &trans  &trans
                         &trans       &trans       &trans       &trans        &trans  &trans  &trans    &trans    &trans   &trans
             >;
